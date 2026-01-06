@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<HTML lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <title>صفحة تدريب وسام</title>
+</head>
+<body>
+<!--عنوان الوسام-->
+<h1> تدريب وسام html</h1>
+<p> تحتوي على تدريب ثاني </p>
+<hr>
+<!--قسم المعلومات-->
+<h2>معلومات عامة</h2>
+<table border="1" cellpadding="10" cellspacing="1">
+    <tr>
+        <th>العنصر</th>
+         <th>القيمة</th>
+    </tr>
+    <tr>
+        <td>الاسم</td>
+        <td> وساام</td>
+    </tr>
+<tr>
+    <td>المجال</td>
+    <td>تطوير ويب</td>
+</tr>
+<tr>
+     <td>اللغة</td>
+      <td>HTML</td>
+</tr>
+</table>
+<!--صورة-->
+<H2>صورة</H2>
+<img src="images.jpg" alt="صورة توضيحية"
+width="400">
+<p>يمكنك وضع صور حقيقة</p>
+<hr>
+<!--تفاصيل مخفية-->
+<h2>معلومات اضافية</h2>
+<details>
+    <summary>اضغط لعرض التفاصيل</summary>
+    <p>استخدمتها لبناء هيكل صفحات ويب</p>
+    <p>first step</p>
+    <hr>
+    <!--نموذج متقدم-->
+    <h2>نموذج بيانات</h2>
+    <form>
+<fieldset>
+    <legend>البيانات الشخصية</legend>
+    <label>الاسم</label>
+    <input type="text"
+    placeholder="اكتب اسمك"><br><br>
+    <label>العمر</label>
+    <input type="number"><br><br>
+    <label>تاريخ الميلاد</label>
+    <input type="date"><br><br>
+</fieldset>
+<br>
+<fieldset>
+    <legend>skiles</legend>
+    <label> اختر المهارة</label>
+    <input list="skiles">
+    <datalist id="skiles">
+        <option value="HTML">
+            <option value="CSS">
+                <option value="luffy">
+                    <option value="JAVA">
+        </option>
+    </datalist><br><br>
+    <label for="level"> اختر المستوى :</label><br>
+    <input type="range" id="level" name="level" min="0" max="100">
+
+</fieldset>
+<br>
+<button>sent</button>
+    </form>
+    <hr>
+    <!--تقييم-->
+    <h2>تقييم المستوى</h2>
+    <p>مستوى الاتقان</p>
+    <meter min="0" max="100" value="40">40& </meter>
+    <hr>
+</details>
+</body>
+
+</HTML>
